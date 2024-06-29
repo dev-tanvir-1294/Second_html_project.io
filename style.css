@@ -1,0 +1,930 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/* nav start */
+#navbar{
+    background: #1B3764;
+    padding: 40px 0;
+
+}
+
+.fa-solid{
+    color: white;
+}
+.social li a i{ 
+    background: white;
+    
+}
+.social ul li{
+    padding-left: 8px;
+}
+.social ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+.social ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 14px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+.navlist ul li {
+    padding-right: 40px;
+}
+.navlist ul a{
+    text-decoration: none;
+    padding: 5px;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.25px;
+    letter-spacing: -0.01em;
+
+    
+}
+.navlist ul li{
+    color: white;
+}
+
+.order{
+    border: 2px solid #FFCA42;
+    background: #FFCA42;
+    color: black;
+    
+}
+#order {
+    color: black;
+}
+
+/* nav-bar  end */
+
+/* hero section start */
+
+#hero-section{
+    background: #1B3764;
+
+    padding-bottom: 50px;
+
+}
+.herobox{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.herotext{
+    color: white;
+    padding-right: 90px;
+    
+}
+
+.herotext h4{
+    padding-bottom: 15px;
+    font-family: Cardo;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 37.08px;
+    letter-spacing: -0.02em;
+
+
+}
+.herotext h1{
+    font-family: Cardo;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 71.5px;
+    letter-spacing: -0.02em;
+}
+
+.herotext p{
+    padding-bottom: 30px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    
+}
+
+.orderbtn{
+    padding: 8px 30px;
+    background: #FFCA42;
+    text-decoration: none;
+}
+
+#readdemo{
+    color: white;
+    padding-left: 8px;
+}
+.pagesection ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 60px 30px;
+}
+.pagesection ul li{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.01em;
+}
+.heropic img{
+    width: 100%;
+    
+}
+
+
+
+/* hero section end */
+
+/* Aurthor booklist start */
+
+#aurthorbook{
+
+    padding-bottom: 80px ;
+
+}
+.authorhead{
+    padding:  60px 0;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    
+}
+
+.bookpic img{
+    width: 100%;
+}
+
+.booktext{
+    padding-left: 30px;
+}
+.booktext h3{
+    padding-bottom: 30px;
+    font-family: Cardo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.02em;
+
+
+}
+.booktext p{
+
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    
+}
+.booktext ul li{
+    display: inline-block;
+    padding: 20px 8px;
+    
+    
+}
+.booktext ul li a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+
+}
+#ot {
+    border: 1px solid #FFCA42;
+    text-decoration: none;
+    padding: 12px 25px;
+    
+}
+
+.bookbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* book list end */
+
+/* about author start */
+#about_aurthor{
+    background: #F4F8FF;
+    padding: 80px 0;
+}
+.aurthorbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aurthorbox img{
+    width: 100%;
+}
+
+
+
+.authortext{
+    padding: 70px;
+    text-align: left;
+    height: 560px;
+    width: 550px;
+
+}
+
+.authortext h1{
+
+    
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    
+    
+
+    
+}
+.authortext p{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+
+}
+.aurthorpic img{
+    width: 90%;
+}
+
+.addbox{
+    width: 400px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1B3764;
+    
+}
+
+.addtext{
+    color: white;
+    padding: 4px;
+}
+.addtext h3{
+
+    font-family: Cardo;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #FFCA42;
+
+
+}
+.ratingbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+/* about author end */
+
+/* company list start */
+
+.companyheader{
+    text-align: center;
+    padding: 115px 0 ;
+}
+.companyheader h1{
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+.companylist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 140px;
+}
+.companylist img{
+    width: 100%;
+}
+
+.companytext {
+    padding-top: 10px;
+    text-align: center;
+}
+.companytext h3{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+.companytext p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+
+.company1{
+    height: 250px;
+    width: 200px;
+    
+}
+.company2{
+    height: 250px;
+    width: 200px;
+    padding: 30px 0;
+}
+
+.company3{
+    height: 250px;
+    width: 200px;
+}
+
+.company4{
+    height: 250px;
+    width: 200px;
+}
+
+
+
+/* company list end */
+
+/* getbook start */
+
+#get_order{
+    background: #1B3764;
+}
+.getbookbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.ordertext h1{
+
+    padding-bottom: 30px;
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+
+}
+
+.ordertext p{
+    padding-bottom: 35px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.ordertext a{
+    border: 1px solid yellow;
+    text-decoration: none;
+    padding: 12px 35px;
+    color: white;font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23.75px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+
+/* getbook end */
+
+/* learn section start */
+#learn-section{
+
+    padding-bottom:90px ;
+}
+.learnheader{
+    text-align: center;
+    padding: 70px 0;
+}
+.learnheader h1{
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+.learnbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.learnbox h1{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.learntextbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 13px;
+   
+    text-align: left;
+}
+
+
+.smallbox1{
+    height: 250px;
+    width: 300px;
+    background: #F4F8FF;
+    padding: 50px;
+}
+.smallbox2{
+    height: 250px;
+    width: 300px;
+    background: #F4F8FF;
+    padding: 50px;
+}
+.smallbox3{
+    height: 250px;
+    width: 300px;
+    background: #F4F8FF;
+    padding: 50px;
+}
+.smallbox4{
+    height: 250px;
+    width: 300px;
+    background: #F4F8FF;
+    padding: 50px;
+}
+.learnpic img{
+    width: 80%;
+}
+
+
+/* Learn section end */
+
+/* chapter section start */
+
+#chapter{
+    background: #F4F8FF;
+}
+
+.chapterheader{
+    text-align: center;
+    padding: 110px 0;
+}
+.chapterheader h1{
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+
+}
+.chapterbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+}
+.chapterbox h3{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.02em;
+
+
+}
+.chapterbox p{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.chapterbox1{
+    height: 250px;
+    width: 550px;
+    background: white;
+    padding: 8%;
+}
+.chapterbox2{
+    height: 250px;
+    width: 550px;
+    background: white;
+    padding: 8%;
+}
+.chapterbox3{
+    height: 250px;
+    width: 550px;
+    background: white;
+    padding: 8%;
+}
+.chapterbox4{
+    height: 250px;
+    width: 550px;
+    background: white;
+    padding: 8%;
+}
+
+.chapterfooter{
+    text-align: center;
+    padding: 80px 0;
+}
+.chapterfooter h3{
+    display: inline-block;
+    background: #FFCA42;
+    padding: 20px 60px;
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23.75px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.chapterfooter h5{
+    padding-top: 30px;font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: center;
+    
+}
+
+.chapterfooter h4{
+    display: inline-block;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30.6px;
+text-align: center;
+
+}
+
+/* chapter section end */
+
+/* readersection start */
+
+#reader{
+    
+    background: rgb(255, 255, 255);
+}
+
+.readerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.readertext h1{
+
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    display: inline-block;
+
+
+}
+
+.readertext p{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.readertext h3{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.readerpic{
+    width: 450px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 10px;
+
+    
+}
+.readerpic1{
+    height: 210px;
+    width: 275px ;
+    background: #1B3764;
+
+}
+.readerpic2{
+    background: #061c40;
+    height: 210px;
+    width: 275px ;
+    align-items: center;
+
+}
+.readerpic3{
+    background: #1B3764;
+    height: 210px;
+    width: 275px ;
+
+}
+
+/* reader section end */
+
+/* article section start */
+
+#articale{
+    background: #F4F8FF;
+    padding-bottom: 100px;
+}
+
+.articlehead{
+    text-align: center;
+    padding: 80px 0;
+}
+.articlehead h1{
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #1B3764;
+
+}
+.articlebox h3{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #1B3764;
+
+}
+articletext p{
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.articlebox{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row: 1fr;
+    column-gap: 15px;
+    background: white;
+    padding-bottom: 20px;
+}
+.articlebox img{
+    width: 100%;
+}
+
+
+
+/* article end */
+
+/* read free section start */
+#read-free{
+    background: white;
+}
+.readcon{
+    padding: 130px 0;
+}
+.readbox{
+    background: #FFCA42;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.readbox h1  {
+    padding-bottom: 24px;
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+}
+
+.readbox p{
+    padding-bottom: 24px;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34.2px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    
+}
+
+.inputbtn{
+    padding-top: 24px;
+}
+#inbtn{
+    padding: 20px 100px;
+}
+.inputbtn a{
+    text-decoration: none;
+    padding: 16px 60px;
+    border: 1px solid blue;
+    background: #1B3764;
+    color: white;
+}
+
+/* read free section end */
+
+/* footer section start */
+
+#footer{
+   
+    background: #1B3764;
+}
+#footer h2{
+    font-family: Cardo;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.footerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 85px 0;
+    color: white;
+}
+
+.fticon ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fticon ul li i{
+    border: 1px solid yellow;
+    height: 55px;
+    width: 55px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.ftbox2 ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36.9px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+.ftbox2 ul {
+    padding-bottom: 12px ;
+}
+.ftbox3 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36.9px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    
+}
+.ftbox4 ul li {
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36.9px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.lasttext{
+    text-align: center;
+    color: white;
+    padding-bottom: 23px;
+}
+
+.footerbox h2{
+    padding-bottom: 12px;
+}
+.ftlogo{
+
+    padding-bottom: 12px;
+}
+.lasttext h4{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+
+}
